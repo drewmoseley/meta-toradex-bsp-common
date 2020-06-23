@@ -1,10 +1,10 @@
-FILESEXTRAPATHS_prepend := "${THISDIR}/libsoc:"
+FILESEXTRAPATHS_prepend_toradex-bsp := "${THISDIR}/libsoc:"
 
-PACKAGE_ARCH = "${MACHINE_ARCH}"
+PACKAGE_ARCH_toradex-bsp = "${MACHINE_ARCH}"
 
-SRCREV = "9a97d260379856940a5de9862ef06803de82cca8"
+SRCREV_toradex-bsp = "9a97d260379856940a5de9862ef06803de82cca8"
 
-SRC_URI += " \
+SRC_URI_append_toradex-bsp = " \
         file://0001-libsoc-use-sane-board-naming.patch \
 "
 

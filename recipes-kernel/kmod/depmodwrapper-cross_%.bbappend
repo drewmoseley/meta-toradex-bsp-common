@@ -1,4 +1,4 @@
-do_install() {
+do_install_toradex() {
 	install -d ${D}${bindir_crossscripts}/
 
 	cat > ${D}${bindir_crossscripts}/depmodwrapper << EOF

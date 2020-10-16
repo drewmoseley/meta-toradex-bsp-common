@@ -1,1 +1,1 @@
-FILESEXTRAPATHS_prepend := "${THISDIR}/systemd-conf:"
+FILESEXTRAPATHS_prepend_toradex := "${THISDIR}/systemd-conf:"
